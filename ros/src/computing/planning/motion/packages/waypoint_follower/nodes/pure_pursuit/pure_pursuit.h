@@ -101,6 +101,7 @@ public:
   }
   // processing
   bool canGetCurvature(double *output_kappa);
+  void getNextWaypoint();
 
 private:
   // constant
@@ -120,7 +121,6 @@ private:
   // functions
   double calcCurvature(geometry_msgs::Point target) const;
   bool interpolateNextTarget(int next_waypoint, geometry_msgs::Point *next_target) const;
-  void getNextWaypoint();
 };
 }  // waypoint_follower
 
