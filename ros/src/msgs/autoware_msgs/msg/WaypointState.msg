@@ -10,7 +10,7 @@ uint8 STR_LEFT=1
 uint8 STR_RIGHT=2
 uint8 STR_STRAIGHT=3
 
-uint8 accel_state 
+uint8 accel_state
 
 uint8 stop_state
 # 1 is stopline, 2 is stop which can only be released manually.
