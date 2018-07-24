@@ -71,7 +71,7 @@ from autoware_msgs.msg import ConfigRandomFilter
 from autoware_msgs.msg import ConfigRingGroundFilter
 from autoware_msgs.msg import ConfigRayGroundFilter
 from autoware_msgs.msg import ConfigPointsConcatFilter
-from autoware_msgs.msg import ConfigWaypointLoader
+from autoware_msgs.msg import ConfigWaypointReplanner
 from autoware_msgs.msg import ConfigWaypointFollower
 from autoware_msgs.msg import ConfigTwistFilter
 from autoware_msgs.msg import ConfigVelocitySet
